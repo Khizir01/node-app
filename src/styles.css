@@ -1,0 +1,65 @@
+.header{
+width: 770px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+font-size: 24px;
+font-size: Gilroy;
+color: #003399;
+}
+.number{
+width: 770px;
+margin: auto;
+font-size: 300px;
+color: #F27C0F;
+text-align: center;
+
+}
+.buttons{
+    font-family: "Gilroy";
+    font-size: 24px;
+    display: flex;
+    width: 770px;
+    margin: auto;
+    justify-content: space-around;
+}
+.button1{
+    width: 180px;
+    height: 55px;
+    border-radius: 4px;
+    background-color: #003399;
+    color:#fff;
+    text-align: center;
+}
+.but-span{
+    vertical-align: -webkit-baseline-middle;
+}
+.button2{
+    width: 180px;
+    height: 55px;
+    background-color: #F27C0F;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+.button3{
+    width: 180px;
+    height: 55px;
+    background-color: #E5E5E5;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+.foot{
+    width: 770px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-family: "Gilroy";
+    position: relative;
+    top:100px;
+}
