@@ -32,7 +32,7 @@ text-align: center;
     text-align: center;
 }
 .but-span{
-    vertical-align: -webkit-baseline-middle;
+  
 }
 .button2{
     width: 180px;
@@ -54,12 +54,22 @@ text-align: center;
 }
 .foot{
     width: 770px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
     font-family: "Gilroy";
-    position: relative;
-    top:100px;
+    position: fixed;
+    bottom:20px;
+    left: 300px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.App {
+    height: 100vh;
 }
